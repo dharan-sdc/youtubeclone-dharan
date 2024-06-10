@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>YouTube.com / Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="StyleSheet/header.css">
+    <link rel="stylesheet" href="StyleSheet/sidebar.css">
+    <link rel="stylesheet" href="StyleSheet/youtube-contain.css">
+    <link rel="stylesheet" href="StyleSheet/yt-genenal.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="left-sec">
+            <img class="menu" src="icons/hamburger-menu.svg">
+            <img class="yt-logo" src="icons/youtube-logo.svg">
+        </div>
+        <div class="middle-sec">
+            <input class="search-bar" type="search" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="icons/search.svg">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-button">
+                <img class="voice-search" src="icons/voice-search-icon.svg">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-sec">
+            <div class="upload-icon-contain">
+                <img class="upload-icon" src="icons/three-dots-vertical.png">
+                <div class="tooltip">Settings</div>
+            </div>
+            <div class="signin">
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false"
+                        style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                        <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 1c4.96 0 9 4.04 9 9 0 1.42-.34 2.76-.93 3.96-1.53-1.72-3.98-2.89-7.38-3.03A3.996 3.996 0 0016 9c0-2.21-1.79-4-4-4S8 6.79 8 9c0 1.97 1.43 3.6 3.31 3.93-3.4.14-5.85 1.31-7.38 3.03C3.34 14.76 3 13.42 3 12c0-4.96 4.04-9 9-9zM9 9c0-1.65 1.35-3 3-3s3 1.35 3 3-1.35 3-3 3-3-1.35-3-3zm3 12c-3.16 0-5.94-1.64-7.55-4.12C6.01 14.93 8.61 13.9 12 13.9c3.39 0 5.99 1.03 7.55 2.98C17.94 19.36 15.16 21 12 21z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="sign">
+                    Sign in
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="treading">
+        <div class="in">
+            <span>All</span><span>Music</span><span>Tamil Cinema</span>
+            <span>A. R. Rehman</span><span>G. V. Prakash Kumar</span><span>Yuvan Shankar Raja</span>
+            <span>Anirudh Ravichander</span><span>T-Series</span><span>DJ mix</span><span>Live</span>
+            <span>Game shows</span><span style="background-color: white; color: white;">Cinema</span><span
+                style="background-color: white; color: white;">Cinema</span><span
+                style="background-color: white; color: white;">Cinema</span>
+            <span style="background-color: white; color: white;">python</span>
+        </div>
+
+    </div>
+
+    <!-- sidebar -->
+
+    <div class="sidebar">
+        <div class="Sidebar-link">
+            <img src="Sidebar-icon/home.svg">
+            <div>Home</div>
+        </div>
+        <div class="Sidebar-link">
+            <img src="Sidebar-icon/explore.svg">
+            <div>Explore</div>
+        </div>
+        <div class="Sidebar-link">
+            <img src="Sidebar-icon/subscriptions.svg">
+            <div>Subscriptions</div>
+        </div>
+        <div class="Sidebar-link">
+            <img src="Sidebar-icon/originals.svg">
+            <div>Originals</div>
+        </div>
+
+        <div class="Sidebar-link">
+            <img src="Sidebar-icon/library.svg">
+            <div>Library</div>
+        </div>
+    </div>
+
+    <!-- youtube thumbnail -->
+
+    <div class="video-grid">
+        <div class="thumbblock">
+            <a href="https://www.youtube.com/watch?v=vWMSrawbr9s">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumb1.webp">
+                    <div class="video-time">13:44</div>
+                </div>
+            </a>
+            <div class="channel-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="Channelprofile/channels0_profile.jpg">
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=vWMSrawbr9s" class="video-title">
+                        <p>Ms Marvel Episode 1 - Tamil Breakdown (தமிழ்)</p>
+                    </a>
+
+                    <p class="video-author">Mokka Commentry
+                    </p>
+                    <p class="video-status">196k views &#183; 1 year ago</p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="thumbblock">
+            <a href="https://www.youtube.com/watch?v=OVzr-Q99Qt4">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumb2.webp">
+                    <div class="video-time">5:36</div>
+                </div>
+            </a>
+            <div class="channel-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="Channelprofile/channels4_profile.jpg">
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=OVzr-Q99Qt4" class="video-title">
+                        <p>From Script to Screen - Soorarai Pottru Making Part 2 | Suriya | G.V. Prakash Kumar | Sudha
+                            Kongara</p>
+                    </a>
+                    <p class="video-author">2D Entertainment</p>
+                    <p class="video-status">3M views &#183; 3 years ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumbblock">
+            <a href="https://www.youtube.com/watch?v=YAwNTQWH31I">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumb3.webp">
+                    <div class="video-time">9:13</div>
+                </div>
+            </a>
+
+            <div class="channel-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="Channelprofile/channels5_profile.jpg">
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=YAwNTQWH31I" class="video-title">
+                        <p>Ayalaan - Official Trailer | Sivakarthikeyan | A.R.Rahman | Rakul Preet Singh
+                            | R.Ravikumar</p>
+                    </a>
+
+                    <p class="video-author">Sun TV</p>
+                    <p class="video-status">12M views &#183; 2 days ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumbblock">
+            <a href="https://www.youtube.com/watch?v=QZmZdp2_J0U">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumb4.webp">
+                    <div class="video-time">22:09</div>
+                </div>
+            </a>
+
+            <div class="channel-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="Channelprofile/channels6_profile.jpg">
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=QZmZdp2_J0U" class="video-title">
+                        <p class="video-title">Exam Sothanaigal 3 | Micset</p>
+                    </a>
+
+                    <p class="video-author">Mic Set</p>
+                    <p class="video-status">40M views &#183; 3 years ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumbblock">
+            <a href="https://www.youtube.com/watch?v=Q0_K4Xwh-WI">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumb5.webp">
+                    <div class="video-time">11:17</div>
+                </div>
+            </a>
+
+            <div class="channel-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="Channelprofile/channels5_profile.jpg">
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=Q0_K4Xwh-WI" class="video-title">
+                        <p class="video-title">CAPTAIN MILLER - Trailer | Dhanush | Shivarajkumar, Sundeep Kishan | Arun
+                            Matheswaran</p>
+                    </a>
+
+                    <p class="video-author">Sun TV
+                    </p>
+                    <p class="video-status">5M views &#183; 22 hours ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumbblock">
+            <a href="https://www.youtube.com/watch?v=TbObPaVY8G8">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumb6.webp">
+                    <div class="video-time">19:59</div>
+                </div>
+            </a>
+
+            <div class="channel-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="Channelprofile/channels7_profile.jpg">
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=TbObPaVY8G8" class="video-title">
+                        <p class="video-title">Unnai Naan - 4K Video Song | உன்னை நான் | Jay Jay | Madhavan | Amogha |
+                            Bharathwaj | Ayngaran</p>
+                    </a>
+
+                    <p class="video-author">Ayngaran
+                    </p>
+                    <p class="video-status">3.1M views &#183; 4 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumbblock">
+            <a href="https://www.youtube.com/watch?v=CPLCdVM2Mfc">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumb7.webp">
+                    <div class="video-time">5:24</div>
+                </div>
+            </a>
+
+            <div class="channel-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="Channelprofile/channels8_profile.jpg">
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=CPLCdVM2Mfc" class="video-title">
+                        <p class="video-title">Alwarpetai Aaluda 4K Video Song | ஆழ்வார்பேட்டை ஆளுடா | Vasool Raja |
+                            Kamal...</p>
+                    </a>
+
+                    <p class="video-author">Ayngaran Music</p>
+                    <p class="video-status">1.7M views &#183; 1 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumbblock">
+            <a href="https://www.youtube.com/watch?v=PiL5UTTTrxk">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumb8.webp">
+                    <div class="video-time">4:04</div>
+                </div>
+            </a>
+
+            <div class="channel-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="Channelprofile/channels9_profile.jpg">
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=PiL5UTTTrxk" class="video-title">
+                        <p>Kangal Edho Video Song | Chithha | Siddharth | S.U.Arun Kumar | Dhibu
+                            Ninan
+                            Thomas | Etaki</p>
+                    </a>
+
+                    <p class="video-author">Think Music India</p>
+                    <p class="video-status">14M views &#183; 3 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumbblock">
+            <a href="https://www.youtube.com/watch?v=Wm1-yvp9jOg">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumb9.webp">
+                    <div class="video-time">1:00</div>
+                </div>
+            </a>
+
+            <div class="channel-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="Channelprofile/channels10_profile.jpg">
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=Wm1-yvp9jOg" class="video-title">
+                        <p class="video-title">Vettaiyan | Rajinikanth | T.J. Gnanavel | Anirudh | Subaskaran | Lyca
+                            Productions</p>
+                    </a>
+                    <p class="video-author">Lyca Music</p>
+                    <p class="video-status">1.2M views &#183; 3 weeks ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumbblock">
+            <a href="https://www.youtube.com/watch?v=ryaVRiWMrPg">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumb10.webp">
+                    <div class="video-time">0.31</div>
+                </div>
+            </a>
+
+            <div class="channel-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="Channelprofile/channels11_profile.jpg">
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=ryaVRiWMrPg" class="video-title">
+                        <p class="video-title">LEO - Leo Sister Elisa Das Entry Theme - MST</p>
+                    </a>
+
+                    <p class="video-author">Ezakiel SoundTrack</p>
+                    <p class="video-status">129k views &#183; 1 month ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumbblock">
+            <a href="https://www.youtube.com/watch?v=AreABKrZxH8">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumb11.webp">
+                    <div class="video-time">5:08</div>
+                </div>
+            </a>
+
+            <div class="channel-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="Channelprofile/channels12_profile.jpg">
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=AreABKrZxH8" class="video-title">
+                        <p class="video-title">Maattrraan - Naani Koni Video | Suriya, Kajal Agarwal</p>
+                    </a>
+
+                    <p class="video-author">SonyMusicSouthVEVO</p>
+                    <p class="video-status">36M views &#183; 8 years ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumbblock">
+            <a href="https://www.youtube.com/watch?v=WJTd1iSch94">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumb12.webp">
+                    <div class="video-time">6:15</div>
+                </div>
+            </a>
+
+            <div class="channel-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="Channelprofile/channels13_profile.jpg">
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=WJTd1iSch94" class="video-title">
+                        <p class="video-title">(Marvel) Tony Stark | The Way</p>
+                    </a>
+
+                    <p class="video-author">VCreations</p>
+                    <p class="video-status">9.6M views &#183; 4 years ago</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sho-title">
+        <div><img src="yt-shorts_thumb/yt-shorts-logo.png" alt="" class="shorts-icon"></div>
+        <div>
+            <h2 class="h-s">Shorts</h2>
+        </div>
+    </div>
+
+
+    <div class="shot">
+        <div class="shorts1">
+            <a href="https://www.youtube.com/shorts/b4YUFDewsFM" class="links">
+                <img src="yt-shorts_thumb/short1.webp" alt="shorts" class="shorts-img">
+                <div class="con">
+                    <h3>CAPTAIN MILLER - Official Pooja Event Video | Dhanush | GV Prakash | Arun Matheswaran | #Shorts
+                    </h3>
+                    <p>4.9M views</p>
+                </div>
+            </a>
+        </div>
+        <div class="shorts2">
+            <a href="https://www.youtube.com/shorts/MR61DbPeD6Y" class="links">
+                <img src="yt-shorts_thumb/short2.webp" alt="shorts" class="shorts-img">
+                <div class="con">
+                    <h3>Aval Ulaga Azhagiye😍 | #LeoSuccessMeet#SunMusic #Leo #Vijay #ThalapathyVijay #Anirudh
+                    </h3>
+                    <p>4.5M views</p>
+                </div>
+            </a>
+        </div>
+        <div class="shorts3">
+            <a href="https://www.youtube.com/shorts/XEp5xGMnn5s" class="links">
+                <img src="yt-shorts_thumb/short3.webp" alt="shorts" class="shorts-img">
+                <div class="con">
+                    <h3>Therikka 💥| Arjun | #thalapathy #leo #vijay #actionkingarjun #harolddas #glimpseofharolddas
+                        #viral
+                    </h3>
+                    <p>4.9M views</p>
+                </div>
+            </a>
+        </div>
+        <div class="shorts4">
+            <a href="https://www.youtube.com/shorts/9eb4axUnyVI" class="links">
+                <img src="yt-shorts_thumb/short4.webp" alt="shorts" class="shorts-img">
+                <div class="con">
+                    <h3>kosandra × rocky bhai attitude status 😎 #yash #kgf
+                    </h3>
+                    <p>1.9M views</p>
+                </div>
+            </a>
+        </div>
+        <div class="shorts5">
+            <a href="https://www.youtube.com/shorts/P1qvOoyXuhI" class="links">
+                <img src="yt-shorts_thumb/short5.webp" alt="shorts" class="shorts-img">
+                <div class="con">
+                    <h3>Suriya😍 or Sivakarthikeyan💓 | #PriyankaMohan | Sun Music #shorts
+                    </h3>
+                    <p>1.8M views</p>
+                </div>
+            </a>
+        </div>
+        <div class="shorts6">
+            <a href="https://www.youtube.com/shorts/tJl23vxl7a0" class="links">
+                <img src="yt-shorts_thumb/short6.webp" alt="shorts" class="shorts-img">
+                <div class="con">
+                    <h3>அவன் உயிர் நண்பனையே கொள்ள நினைத்த துரோகி | Vishal | SJ Suryah | Mark Antony | Adhik
+                    </h3>
+                    <p>2.2M views</p>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+
+    <div class="show-more">
+        <div class="sh-con">
+            Show More
+        </div>
+        <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false"
+                style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                <path d="m18 9.28-6.35 6.35-6.37-6.35.72-.71 5.64 5.65 5.65-5.65z"></path>
+            </svg>
+        </div>
+    </div>
+
+    <div class="video-grid1">
+        <div class="thumbblock">
+            <a href="https://www.youtube.com/watch?v=vWMSrawbr9s">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumb13.webp">
+                    <div class="video-time">4.18</div>
+                </div>
+            </a>
+            <div class="channel-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="Channelprofile/channels14_profile (1).jpg">
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=vWMSrawbr9s" class="video-title">
+                        <p>Konjam Konjam - Audio Song | Naan Ee | Naani, Sudeep, Samantha | S.S.Rajamouli | Maragadamani
+                        </p>
+                    </a>
+
+                    <p class="video-author">Saregama Tamil
+                    </p>
+                    <p class="video-status">584k views &#183; 1 year ago</p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="thumbblock">
+            <a href="https://www.youtube.com/watch?v=OVzr-Q99Qt4">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumb14.webp">
+                    <div class="video-time">0.41</div>
+                </div>
+            </a>
+            <div class="channel-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="Channelprofile/channels15_profile (1).jpg">
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=OVzr-Q99Qt4" class="video-title">
+                        <p>💙💖leo love efx whatsapp status😻🫠#thalapathy #anirudh</p>
+                    </a>
+                    <p class="video-author">𝙏𝙍𝙄𝘾𝙆𝙔 𝙏𝙊𝙉𝙀𝙎</p>
+                    <p class="video-status">563k views &#183; 2 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumbblock">
+            <a href="https://www.youtube.com/watch?v=YAwNTQWH31I">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumb15.webp">
+                    <div class="video-time">0:31</div>
+                </div>
+            </a>
+
+            <div class="channel-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="Channelprofile/channels16_profile (1).jpg">
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=YAwNTQWH31I" class="video-title">
+                        <p>LAWRENCE EDIT🔥🎉 | Solluvathu allam ummai | meme | WhatsApp status 🎊🎉🔥 | Tamil | #viral
+                            #tamil</p>
+                    </a>
+
+                    <p class="video-author">SAJEEV EDITZ</p>
+                    <p class="video-status">74k views &#183; 3 weeks ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumbblock">
+            <a href="https://www.youtube.com/watch?v=QZmZdp2_J0U">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumb16.webp">
+                    <div class="video-time">0.48</div>
+                </div>
+            </a>
+
+            <div class="channel-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="Channelprofile/channels17_profile (1).jpg">
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=QZmZdp2_J0U" class="video-title">
+                        <p class="video-title">🌈#Rangoli - ❣️#Nenjukulla 😍 Love 💫 Song WhatsApp 🪄 Status Tamil...
+                        </p>
+                    </a>
+
+                    <p class="video-author">Prakash Prakash</p>
+                    <p class="video-status">203k views &#183; 1 month ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumbblock">
+            <a href="https://www.youtube.com/watch?v=Q0_K4Xwh-WI">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumb17.webp">
+                    <div class="video-time">0:31</div>
+                </div>
+            </a>
+
+            <div class="channel-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="Channelprofile/channels18_profile (1).jpg">
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=Q0_K4Xwh-WI" class="video-title">
+                        <p class="video-title">Hi Nanna Love WhatsApp Status Tamil ❤️‍🩹✨🦋 | Nani | Mrunal Thakur |
+                            Rait Zara Si Song Status</p>
+                    </a>
+
+                    <p class="video-author">Prince Skfc
+                    </p>
+                    <p class="video-status">44k views &#183; 9 days ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumbblock">
+            <a href="https://www.youtube.com/watch?v=TbObPaVY8G8">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumb18.webp">
+                    <div class="video-time">0:37</div>
+                </div>
+            </a>
+
+            <div class="channel-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="Channelprofile/channels18_profile (1).jpg">
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=TbObPaVY8G8" class="video-title">
+                        <p class="video-title">Joe Love WhatsApp Status Tamil ❤️‍🩹✨🦋 | Rio | Long Distance Love Status
+                            | Ranjha Song Tamil Version</p>
+                    </a>
+
+                    <p class="video-author">Prince Skfc
+                    </p>
+                    <p class="video-status">776 views &#183; 2 days ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumbblock">
+            <a href="https://www.youtube.com/watch?v=CPLCdVM2Mfc">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumb20.webp">
+                    <div class="video-time">13:52</div>
+                </div>
+            </a>
+
+            <div class="channel-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="Channelprofile/channels19_profile (1).jpg">
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=CPLCdVM2Mfc" class="video-title">
+                        <p class="video-title">Never Have I Ever | Season 4 | Episode 5 | தமிழில்</p>
+                    </a>
+
+                    <p class="video-author">Series Rasigai</p>
+                    <p class="video-status">2.4k views &#183; 6 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumbblock">
+            <a href="https://www.youtube.com/watch?v=PiL5UTTTrxk">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumb21.webp">
+                    <div class="video-time">5:04</div>
+                </div>
+            </a>
+
+            <div class="channel-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="Channelprofile/channels20_profile (1).jpg">
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=PiL5UTTTrxk" class="video-title">
+                        <p>Thalli Pogathey - Video Song | Achcham Yenbadhu Madamaiyada | A R Rahman | STR | Gautham</p>
+                    </a>
+
+                    <p class="video-author">Ondraga Entertainment</p>
+                    <p class="video-status">72M views &#183; 7 years ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumbblock">
+            <a href="https://www.youtube.com/watch?v=Wm1-yvp9jOg">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumb19.webp">
+                    <div class="video-time">3:47</div>
+                </div>
+            </a>
+
+            <div class="channel-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="Channelprofile/channels8_profile.jpg">
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=Wm1-yvp9jOg" class="video-title">
+                        <p class="video-title">Siragugal - 4K Video Song | சிறகுகள் வந்தது | Sarvam | Arya | Trisha |
+                            Yuvan Shankar Raja | Ayngaran</p>
+                    </a>
+                    <p class="video-author">Ayngaran Music</p>
+                    <p class="video-status">349k views &#183; 3 weeks ago</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
